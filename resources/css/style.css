@@ -23,6 +23,9 @@ header div h1 {
 
 video {
     object-fit: contain;
+    /* 404 × 720 */
+    width: 404px;
+    height: 720px;
 }
 
 h2 {
@@ -42,10 +45,16 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 896px;
+    height: 527px;
 }
 .app {
   width: 64px;
   height: 108px;
 
+}
+
+.footer {
+  text-align: right;
+  color: Gray;
 }

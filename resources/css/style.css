@@ -1,13 +1,51 @@
 html {
   font-family: Helvetica;
 }
-
+body {
+  background-color: black;
+}
 .linkme {
   text-align:  center;
+  color: Aquamarine ;
+  font-size: 16px;
+}
+a {
+  color: Aquamarine;
 }
 
 header div h1 {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
+  color: white;
+}
+
+
+video {
+    object-fit: contain;
+}
+
+h2 {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 21px;
+  color: Gray;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.app {
+  width: 64px;
+  height: 108px;
+
 }
